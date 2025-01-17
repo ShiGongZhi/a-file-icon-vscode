@@ -149,6 +149,14 @@ export const wFiles = [
     name: 'wolfram_script',
   },
   {
+    fileExtensions: ['wlnet'],
+    name: 'wolfram_net',
+  },
+  {
+    fileExtensions: ['wxf', 'mx', 'wdx'],
+    name: 'wolfram_bin',
+  },
+  {
     fileExtensions: ['woodpecker.yml', 'woodpecker.yaml'],
     name: 'woodpecker',
   },
