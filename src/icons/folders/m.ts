@@ -37,7 +37,6 @@ export const mFolders = [
       'mathjax',
       'maths',
       'scilab',
-      'wolfram',
     ],
     name: 'math',
   },

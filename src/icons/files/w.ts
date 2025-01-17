@@ -137,8 +137,16 @@ export const wFiles = [
     name: 'word',
   },
   {
-    fileExtensions: ['wl', 'wls', 'wlt'],
+    fileNames: ['PacletInfo.wl', 'PacletInfo.m'],
+    name: 'wolfram_paclet',
+  },
+  {
+    fileExtensions: ['wl', 'wlt', 'm'],
     name: 'wolfram',
+  },
+  {
+    fileExtensions: ['wls'],
+    name: 'wolfram_script',
   },
   {
     fileExtensions: ['woodpecker.yml', 'woodpecker.yaml'],
