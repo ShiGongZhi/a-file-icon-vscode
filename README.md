@@ -15,7 +15,9 @@ All additions are:
 
 - Added Wolfram folder icons for folders named `Kernel` and `Wolfram`
 - Added a WolframScript icon for `.wls` files.
-- Added a new icon for `PacletInfo.wl` and `PacletInfo.m` files.
+- Added a WolframNet icon for `.wlnet` files.
+- Added a WolframBin icon for `.wxf`, `.wdx` and `.mx` files.
+- Added a WolframPaclet icon for `PacletInfo.wl` and `PacletInfo.m` files.
 - Changed the `.m` association from Objective-C to Wolfram Language.
 
 ---
