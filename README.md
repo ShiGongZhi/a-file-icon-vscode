@@ -1,3 +1,25 @@
+# Atom Material Icons Plugin for VSCode + WL
+
+<h1 align="center">
+  <br>
+    <img src="https://raw.githubusercontent.com/ToneAr/a-file-icon-vscode/master/logo.png?sanitize=true" alt="logo" width="200">
+  <br><br>
+  Atom Material File Icons for VSCode
+  <br>
+  <br>
+</h1>
+
+Slightly adapted version of [Atom Material Icons Plugin for VSCode](https://github.com/file-icons) with some added WL support, the README of which is below.
+
+All additions are:
+
+- Added Wolfram folder icons for folders named `Kernel` and `Wolfram`
+- Added a WolframScript icon for `.wls` files.
+- Added a new icon for `PacletInfo.wl` and `PacletInfo.m` files.
+- Changed the `.m` association from Objective-C to Wolfram Language.
+
+---
+
 # Atom Material Icons Plugin for VSCode
 
 <h1 align="center">
@@ -9,7 +31,6 @@
   <br>
 </h1>
 
-
 This plugin is a port of the [Atom File Icons](https://github.com/file-icons/atom) for VSCode.
 
 It replaces the icons and folder icons with better suited icons, related to the file type, framework or language.
@@ -20,14 +41,14 @@ and [Atom Material Icons for JetBrains](https://github.com/mallowigi/a-file-icon
 ## Features
 
 - Replaces **file icons** with their relevant logo icons
-    - According to their extension (`.java`, `.php`, `.ruby`...)
-    - According to the framework (Android, NPM, RSpec...)
-    - According to the program used in conjonction (Babel, Docker, CircleCI...)
-    - According to the parent directory (`.github/*`, `.vscode/*`...)
-    - And others...
+  - According to their extension (`.java`, `.php`, `.ruby`...)
+  - According to the framework (Android, NPM, RSpec...)
+  - According to the program used in conjonction (Babel, Docker, CircleCI...)
+  - According to the parent directory (`.github/*`, `.vscode/*`...)
+  - And others...
 - Replaces **folder icons**:
-    - From common patterns: `src`, `main`, `app`, `img`, `docs`...
-    - From specific use cases: `node_modules`, `.vscode`, `.git.`..
+  - From common patterns: `src`, `main`, `app`, `img`, `docs`...
+  - From specific use cases: `node_modules`, `.vscode`, `.git.`..
 - Provides it's own **Product Icons** from the _Material Design Icons_.
 
 ## Associations
@@ -40,14 +61,13 @@ You can find a list of all the available associations in the following links:
 
 ## File Icons
 
-![File Icons](https://raw.githubusercontent.com/mallowigi/iconGenerator/master/assets/files.png)
+![File Icons](https://raw.githubusercontent.com/ToneAr/iconGenerator/master/assets/files.png)
 
 ## Folder Icons
 
-![Folder Icons](https://raw.githubusercontent.com/mallowigi/iconGenerator/master/assets/folders.png)
+![Folder Icons](https://raw.githubusercontent.com/ToneAr/iconGenerator/master/assets/folders.png)
 
-
----- 
+---
 
 ## Usage
 
@@ -61,7 +81,7 @@ Therefore, this extension exposes a bunch of commands that you can invoke via th
 
 Just type `Atom Material` in order to see the commands that are available.
 
-----
+---
 
 ## Settings
 
@@ -132,10 +152,9 @@ or via user settings:
 {
   "a-file-icon-vscode.folderColor": "#ef5350"
 }
-
 ```
 
-----
+---
 
 ### Folder Theme
 
@@ -157,7 +176,7 @@ The available options are:
 - `classic`: Replace all folders with the default folder icon
 - `none`: No folder icons
 
-----
+---
 
 #### Custom icons' opacity
 
@@ -193,7 +212,7 @@ or via user settings:
 }
 ```
 
-----
+---
 
 ## Product Theme
 
@@ -202,8 +221,7 @@ of the JetBrains's equivalent extension and the Material Design Icons.
 
 ![prodIcon.png](./docs/prodIcon.png)
 
-![productIconTheme.png](./docs/productIconTheme.png)
-------
+## ![productIconTheme.png](./docs/productIconTheme.png)
 
 ## Custom associations
 
@@ -322,7 +340,7 @@ associations.
 Here's a list of the available commands:
 
 | Command                           | Description                                                                        |
-|-----------------------------------|------------------------------------------------------------------------------------|
+| --------------------------------- | ---------------------------------------------------------------------------------- |
 | **Arrows Style**                  | Change the style of the arrows in the project tree.                                |
 | **Change Folder Color**           | Change the color of the folder icons.                                              |
 | **Change Folder Theme**           | Change the design of the folder icons.                                             |
@@ -331,7 +349,7 @@ Here's a list of the available commands:
 | **Icon Packs**                    | Select icon packs that enable additional icons (e.g. for Angular, React, Ngrx...). |
 | **Restore Default Configuration** | Reset the default configurations of the icon theme.                                |
 
-----
+---
 
 ## Credits
 
