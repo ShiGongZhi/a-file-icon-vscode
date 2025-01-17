@@ -29,6 +29,10 @@ export const wFolders = [
     name: 'wine',
   },
   {
+    folderNames: ['wolfram', 'kernel'],
+    name: 'wolfram',
+  },
+  {
     folderNames: ['woocommerce'],
     name: 'woocommerce',
   },

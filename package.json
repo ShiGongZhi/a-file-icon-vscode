@@ -1,21 +1,20 @@
 {
-  "name": "a-file-icon-vscode",
-  "displayName": "Atom Material Icons",
-  "description": "Atom Material Icons for Visual Studio Code",
-  "version": "2.0.0",
+  "name": "a-wl-file-icon-vscode",
+  "displayName": "Atom Material Icons + WL",
+  "description": "Atom Material Icons for Visual Studio Code with wider WL support",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mallowigi/a-file-icon-vscode.git"
+    "url": "https://github.com/ToneAr/a-file-icon-vscode.git"
   },
   "author": {
-    "email": "elior@material-theme.com",
-    "name": "Elior Boukhobza",
-    "url": "https://www.material-theme.com"
+    "email": "tonya@wolfram.com",
+    "name": "Antonis Aristeidou"
   },
   "license": "MIT",
   "main": "./dist/extension",
   "icon": "logo.png",
-  "homepage": "https://github.com/mallowigi/a-file-icon-vscode/blob/main/README.md",
+  "homepage": "https://github.com/ToneAr/a-file-icon-vscode/blob/main/README.md",
   "scripts": {
     "build": "bun run compile:dev && bun run postcompile",
     "changelog": "changelog-machine --config changelog.config.json",
@@ -86,7 +85,7 @@
   "badges": [],
   "browser": "./dist/web/extension.js",
   "bugs": {
-    "url": "https://github.com/mallowigi/a-file-icon-vscode/issues"
+    "url": "https://github.com/ToneAr/a-file-icon-vscode/issues"
   },
   "capabilities": {
     "untrustedWorkspaces": {
@@ -405,7 +404,7 @@
     "customization"
   ],
   "publisher": "atommaterial",
-  "qna": "https://github.com/mallowigi/a-file-icon-vscode/issues",
+  "qna": "https://github.com/ToneAr/a-file-icon-vscode/issues",
   "activationEvents": [
     "onStartupFinished"
   ],

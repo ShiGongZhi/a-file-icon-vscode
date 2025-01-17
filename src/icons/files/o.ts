@@ -4,7 +4,7 @@ export const oFiles = [
     name: 'oberon',
   },
   {
-    fileExtensions: ['mm', 'm'],
+    fileExtensions: ['mm'],
     name: 'objc',
   },
   {
