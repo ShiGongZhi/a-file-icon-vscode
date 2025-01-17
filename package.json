@@ -403,7 +403,7 @@
     "icon-theme",
     "customization"
   ],
-  "publisher": "atommaterial",
+  "publisher": "Tone",
   "qna": "https://github.com/ToneAr/a-file-icon-vscode/issues",
   "activationEvents": [
     "onStartupFinished"
