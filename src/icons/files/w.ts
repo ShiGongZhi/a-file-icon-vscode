@@ -141,6 +141,10 @@ export const wFiles = [
     name: 'wolfram_paclet',
   },
   {
+    fileNames: ['init.m'],
+    name: 'wolfram_init',
+  },
+  {
     fileExtensions: ['wl', 'wlt', 'm'],
     name: 'wolfram',
   },
