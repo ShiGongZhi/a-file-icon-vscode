@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file. Dates are d
 
 From here on is the changelog of the original repository:
 
+#### [v1.0.4]()
+
+> January 31, 2025
+
+- Fix missing archive icons.
+
 #### [v1.0.3]()
 
 > January 19, 2025
