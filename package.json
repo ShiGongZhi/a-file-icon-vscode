@@ -101,177 +101,177 @@
       "atom-angular": {
         "default": {
           "fontCharacter": "\\ea2a",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Angular"
       },
       "atom-angular2": {
         "default": {
           "fontCharacter": "\\ea2a",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Angular"
       },
       "atom-nest": {
         "default": {
           "fontCharacter": "\\ed57",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Nest"
       },
       "atom-next": {
         "default": {
           "fontCharacter": "\\ed57",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Next"
       },
       "atom-ngrx": {
         "default": {
           "fontCharacter": "\\ed7b",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "NgRx"
       },
       "atom-phalcon": {
         "default": {
           "fontCharacter": "\\eddf",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Phalcon"
       },
       "atom-rails": {
         "default": {
           "fontCharacter": "\\ee40",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Rails"
       },
       "atom-react": {
         "default": {
           "fontCharacter": "\\ee5a",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "React"
       },
       "atom-recoil": {
         "default": {
           "fontCharacter": "\\ee64",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Recoil"
       },
       "atom-redux": {
         "default": {
           "fontCharacter": "\\ee6a",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Redux"
       },
       "atom-volt": {
         "default": {
           "fontCharacter": "\\ef91",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Volt"
       },
       "atom-vue": {
         "default": {
           "fontCharacter": "\\ef99",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Vue"
       },
       "atom-vuex": {
         "default": {
           "fontCharacter": "\\ef9d",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Vuex"
       },
       "atom-folder-specific": {
         "default": {
           "fontCharacter": "\\f187",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Specific Folders"
       },
       "atom-folder-classic": {
         "default": {
           "fontCharacter": "\\f05e",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Classic Folders"
       },
       "atom-arrows-material": {
         "default": {
           "fontCharacter": "\\f257",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Material Arrows"
       },
       "atom-arrows-triangles": {
         "default": {
           "fontCharacter": "\\f25f",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Triangles"
       },
       "atom-arrows-plusMinus": {
         "default": {
           "fontCharacter": "\\f25a",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Plus-Minus"
       },
       "atom-arrows-arrows": {
         "default": {
           "fontCharacter": "\\f24d",
-          "fontPath": "./productIcons/a-file-icon-vscode.woff"
+          "fontPath": "./productIcons/a-wl-file-icon-vscode.woff"
         },
         "description": "Arrows"
       }
     },
     "commands": [
       {
-        "command": "a-file-icon-vscode.toggleIconPacks",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.toggleIconPacks",
+        "category": "Atom Material Icons WL",
         "title": "%command.toggleIconPacks%"
       },
       {
-        "command": "a-file-icon-vscode.changeFolderTheme",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.changeFolderTheme",
+        "category": "Atom Material Icons WL",
         "title": "%command.changeFolderTheme%"
       },
       {
-        "command": "a-file-icon-vscode.changeFolderColor",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.changeFolderColor",
+        "category": "Atom Material Icons WL",
         "title": "%command.changeFolderColor%"
       },
       {
-        "command": "a-file-icon-vscode.restoreDefaultConfig",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.restoreDefaultConfig",
+        "category": "Atom Material Icons WL",
         "title": "%command.restoreDefaultConfig%"
       },
       {
-        "command": "a-file-icon-vscode.changeArrowTheme",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.changeArrowTheme",
+        "category": "Atom Material Icons WL",
         "title": "%command.changeArrowTheme%"
       },
       {
-        "command": "a-file-icon-vscode.changeOpacity",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.changeOpacity",
+        "category": "Atom Material Icons WL",
         "title": "%command.changeOpacity%"
       },
       {
-        "command": "a-file-icon-vscode.changeSaturation",
-        "category": "Atom Material Icons",
+        "command": "a-wl-file-icon-vscode.changeSaturation",
+        "category": "Atom Material Icons WL",
         "title": "%command.changeSaturation%"
       }
     ],
     "configuration": {
       "properties": {
-        "a-file-icon-vscode.activeIconPacks": {
+        "a-wl-file-icon-vscode.activeIconPacks": {
           "default": [
             "angular",
             "rails"
@@ -279,7 +279,7 @@
           "description": "%configuration.activeIconPacks%",
           "type": "array"
         },
-        "a-file-icon-vscode.arrowTheme": {
+        "a-wl-file-icon-vscode.arrowTheme": {
           "default": "material",
           "description": "%configuration.arrowTheme%",
           "enum": [
@@ -298,23 +298,23 @@
           ],
           "type": "string"
         },
-        "a-file-icon-vscode.filesAssociations": {
+        "a-wl-file-icon-vscode.filesAssociations": {
           "default": {},
           "description": "%configuration.files.associations%",
           "type": "object"
         },
-        "a-file-icon-vscode.foldersAssociations": {
+        "a-wl-file-icon-vscode.foldersAssociations": {
           "default": {},
           "description": "%configuration.folders.associations%",
           "type": "object"
         },
-        "a-file-icon-vscode.folderColor": {
+        "a-wl-file-icon-vscode.folderColor": {
           "default": "#90a4ae",
           "description": "%configuration.folders.color%",
           "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$",
           "type": "string"
         },
-        "a-file-icon-vscode.folderTheme": {
+        "a-wl-file-icon-vscode.folderTheme": {
           "default": "specific",
           "description": "%configuration.folders.theme%",
           "enum": [
@@ -329,36 +329,36 @@
           ],
           "type": "string"
         },
-        "a-file-icon-vscode.languagesAssociations": {
+        "a-wl-file-icon-vscode.languagesAssociations": {
           "default": {},
           "description": "%configuration.languages.associations%",
           "type": "object"
         },
-        "a-file-icon-vscode.opacity": {
+        "a-wl-file-icon-vscode.opacity": {
           "default": 1,
           "description": "%configuration.opacity%",
           "maximum": 1,
           "minimum": 0,
           "type": "number"
         },
-        "a-file-icon-vscode.saturation": {
+        "a-wl-file-icon-vscode.saturation": {
           "default": 1,
           "description": "%configuration.saturation%",
           "maximum": 1,
           "minimum": 0,
           "type": "number"
         },
-        "a-file-icon-vscode.showReloadMessage": {
+        "a-wl-file-icon-vscode.showReloadMessage": {
           "default": true,
           "description": "%configuration.showReloadMessage%",
           "type": "boolean"
         },
-        "a-file-icon-vscode.showUpdateMessage": {
+        "a-wl-file-icon-vscode.showUpdateMessage": {
           "default": false,
           "description": "%configuration.showUpdateMessage%",
           "type": "boolean"
         },
-        "a-file-icon-vscode.showWelcomeMessage": {
+        "a-wl-file-icon-vscode.showWelcomeMessage": {
           "default": true,
           "description": "%configuration.showWelcomeMessage%",
           "type": "boolean"
@@ -370,16 +370,16 @@
     "iconThemes": [
       {
         "_watch": true,
-        "id": "a-file-icon-vscode",
+        "id": "a-wl-file-icon-vscode",
         "label": "Atom Material Icons",
-        "path": "./dist/a-file-icon-vscode-icon-theme.json"
+        "path": "./dist/a-wl-file-icon-vscode-icon-theme.json"
       }
     ],
     "productIconThemes": [
       {
-        "id": "a-file-icon-vscode-product-icon-theme",
+        "id": "a-wl-file-icon-vscode-product-icon-theme",
         "label": "Atom Material Icons",
-        "path": "./dist/a-file-icon-vscode-product-icon-theme.json"
+        "path": "./dist/a-wl-file-icon-vscode-product-icon-theme.json"
       }
     ]
   },

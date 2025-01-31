@@ -19,6 +19,7 @@ All additions are:
 - Added a WolframBin icon for `.wxf`, `.wdx` and `.mx` files.
 - Added a WolframPaclet icon for `PacletInfo.wl` and `PacletInfo.m` files.
 - Changed the `.m` association from Objective-C to Wolfram Language.
+- Extension name have been changed to `a-wl-file-icon-vscode`
 
 ---
 

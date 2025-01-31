@@ -1,11 +1,11 @@
 {
   "fonts": [
     {
-      "id": "a-file-icon-vscode",
+      "id": "a-wl-file-icon-vscode",
       "src": [
         {
           "format": "woff",
-          "path": "./a-file-icon-vscode.woff"
+          "path": "./a-wl-file-icon-vscode.woff"
         }
       ],
       "style": "normal",
