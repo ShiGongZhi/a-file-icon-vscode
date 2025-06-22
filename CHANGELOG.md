@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file. Dates are d
 
 From here on is the changelog of the original repository:
 
+#### [v1.0.6]()
+
+> June 21, 2025
+
+- Change icons of package files to white wolfie icon
+  - Public(.wl|m)
+  - Private(.wl|m)
+  - PackageScope(.wl|m)
+  - PublicScope(.wl|m)
+  - *.init(.wl|m)
+
 #### [v1.0.5]()
 
 > January 31, 2025

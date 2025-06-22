@@ -2,7 +2,7 @@
   "name": "a-wl-file-icon-vscode",
   "displayName": "Atom Material Icons + WL",
   "description": "Atom Material Icons for Visual Studio Code with wider WL support",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "repository": {
     "type": "git",
     "url": "https://github.com/ToneAr/a-file-icon-vscode.git"
