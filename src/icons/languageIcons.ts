@@ -1767,8 +1767,13 @@ export const languageIcons: LanguageAssociation[] = [
   },
   {
     icon: {name: 'jsx'},
-    ids: ['jsx', 'javascriptreact', 'typescriptreact'],
+    ids: ['jsx', 'javascriptreact'],
     name: 'jsx',
+  },
+  {
+    icon: {name: 'tsx'},
+    ids: ['typescriptreact'],
+    name: 'tsx',
   },
   {
     icon: {name: 'json'},

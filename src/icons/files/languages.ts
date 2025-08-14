@@ -37,8 +37,12 @@ export const languages = [
     name: 'jsmin',
   },
   {
-    fileExtensions: ['jsx', 'tsx'],
+    fileExtensions: ['jsx'],
     name: 'jsx',
+  },
+  {
+    fileExtensions: ['tsx'],
+    name: 'tsx',
   },
   {
     fileExtensions: ['cjs', 'es6', 'js', 'mjs'],

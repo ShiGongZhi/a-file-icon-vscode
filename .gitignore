@@ -13,3 +13,5 @@ productIcons/folder-root-open.svg
 
 src/scripts/preview/*.html
 src/scripts/contributors/*.html
+
+.DS_Store
