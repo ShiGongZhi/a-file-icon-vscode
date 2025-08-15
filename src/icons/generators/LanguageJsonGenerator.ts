@@ -1,4 +1,5 @@
 import merge from 'lodash.merge';
+import { DARK_FILE_ENDING } from 'src/helpers/constants';
 import { AbstractJsonGenerator } from 'src/icons/generators/AbstractJsonGenerator';
 import { languageIcons } from 'src/icons/languageIcons';
 
@@ -7,7 +8,10 @@ import type { LanguageAssociation } from 'src/@types/associations';
 import type { AtomConfig } from 'src/@types/config';
 
 export class LanguageJsonGenerator extends AbstractJsonGenerator {
-  constructor(override readonly atomConfig: AtomConfig, override readonly iconConfig: IconConfiguration) {
+  constructor(
+    override readonly atomConfig: AtomConfig,
+    override readonly iconConfig: IconConfiguration
+  ) {
     super(atomConfig, iconConfig);
   }
 
@@ -82,9 +86,20 @@ export class LanguageJsonGenerator extends AbstractJsonGenerator {
 
     // Add a light variant if necessary
     if (language.light) {
-      // todo check if it indeed works with light/dark
+      // For language icons, we need to handle both the icon definition and language mapping
+      // 1. Update the default language mapping to use dark variant
+      this.addLanguageAssociation(assocName + DARK_FILE_ENDING, language.ids);
+
+      // 2. Ensure light config exists
       this.iconConfig.light = merge({}, this.iconConfig.light);
-      this.addLanguageAssociation(assocName, language.ids);
+      if (!this.iconConfig.light.languageIds) {
+        this.iconConfig.light.languageIds = {};
+      }
+
+      // 3. Add light variant (original icon) to light config
+      for (const languageId of language.ids) {
+        this.iconConfig.light.languageIds[languageId] = assocName;
+      }
     }
 
     // Add a high contrast variant if necessary

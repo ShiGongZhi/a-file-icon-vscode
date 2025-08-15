@@ -1,5 +1,7 @@
 # Atom Material Icons Plugin for VSCode + WL
 
+Fix the original plug-in bug, automatically load the corresponding icon according to the light and dark theme, making the icon look clearer
+
 <h1 align="center">
   <br>
     <img src="https://raw.githubusercontent.com/ToneAr/a-file-icon-vscode/master/logo.png?sanitize=true" alt="logo" width="200">

@@ -15,7 +15,10 @@ import type { FileAssociation, FileAssociations } from 'src/@types/associations'
 import type { IconConfiguration } from 'src/models/IconConfiguration';
 
 export class FileJsonGenerator extends AbstractJsonGenerator {
-  constructor(override readonly atomConfig: AtomConfig, override readonly iconConfig: IconConfiguration) {
+  constructor(
+    override readonly atomConfig: AtomConfig,
+    override readonly iconConfig: IconConfiguration
+  ) {
     super(atomConfig, iconConfig);
   }
 
@@ -174,8 +177,8 @@ export class FileJsonGenerator extends AbstractJsonGenerator {
 
         // Replace the original extension to icon with the '_dark' suffix
         this.iconConfig.fileExtensions[fileExtension] = `${fileAssoc.name}${DARK_FILE_ENDING}`;
-        // And add the light variant to the light config
-        this.iconConfig.light.fileExtensions[fileExtension] = `${fileAssoc.name}${DARK_FILE_ENDING}`;
+        // And add the light variant to the light config (use original icon name for light theme)
+        this.iconConfig.light.fileExtensions[fileExtension] = fileAssoc.name;
       }
 
       // Then add the highContrast variant if needed
@@ -223,8 +226,8 @@ export class FileJsonGenerator extends AbstractJsonGenerator {
 
         // Replace the original extension to icon with the '_dark' suffix
         this.iconConfig.fileNames[fileName] = `${fileAssoc.name}${DARK_FILE_ENDING}`;
-        // And add the light variant to the light config
-        this.iconConfig.light.fileNames[fileName] = `${fileAssoc.name}${DARK_FILE_ENDING}`;
+        // And add the light variant to the light config (use original icon name for light theme)
+        this.iconConfig.light.fileNames[fileName] = fileAssoc.name;
       }
 
       // Then add the highContrast variant if needed
