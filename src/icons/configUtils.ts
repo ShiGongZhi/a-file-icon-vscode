@@ -15,7 +15,21 @@ import type { AtomConfig } from 'src/@types/config';
  */
 export const getDefaultConfig = (): AtomConfig => {
   return {
-    activeIconPacks: [IconPack.Rails, IconPack.Angular, IconPack.React, IconPack.Phalcon],
+    activeIconPacks: [
+      IconPack.Angular,
+      IconPack.Angular2,
+      IconPack.Nest,
+      IconPack.Next,
+      IconPack.Ngrx,
+      IconPack.Phalcon,
+      IconPack.Rails,
+      IconPack.React,
+      IconPack.Recoil,
+      IconPack.Redux,
+      IconPack.Volt,
+      IconPack.Vue,
+      IconPack.Vuex,
+    ],
     arrowTheme: ArrowTheme.Material,
     folderColor: DEFAULT_FOLDER_COLOR,
     folderTheme: FolderTheme.Specific,
