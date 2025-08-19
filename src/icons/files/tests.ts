@@ -102,21 +102,12 @@ export const tests = [
     name: 'testperlfiles',
   },
   {
-    fileExtensions: [
-      'spec.jsx',
-      'spec.tsx',
-      'spec/jsx',
-      'spec/tsx',
-      'specs/jsx',
-      'specs/tsx',
-      'test.jsx',
-      'test.tsx',
-      'test/jsx',
-      'test/tsx',
-      'tests/jsx',
-      'tests/tsx',
-    ],
-    name: 'testreactfiles',
+    fileExtensions: ['spec.jsx', 'spec/jsx', 'specs/jsx', 'test.jsx', 'test/jsx', 'tests/jsx'],
+    name: 'testjsx',
+  },
+  {
+    fileExtensions: ['spec.tsx', 'spec/tsx', 'specs/tsx', 'test.tsx', 'test/tsx', 'tests/tsx'],
+    name: 'testtsx',
   },
   {
     fileExtensions: [
