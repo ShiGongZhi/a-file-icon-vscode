@@ -26,7 +26,7 @@ export const eFolders = [
   },
   {
     folderNames: ['empty', 'empties', 'stock', 'stocks'],
-    name: 'empty',
+    name: 'empties',
   },
   {
     folderNames: ['env', 'envs', 'environment', 'environments'],
@@ -48,14 +48,7 @@ export const eFolders = [
     name: 'events',
   },
   {
-    folderNames: [
-      'demo',
-      'demos',
-      'example',
-      'examples',
-      'sample',
-      'samples',
-    ],
+    folderNames: ['demo', 'demos', 'example', 'examples', 'sample', 'samples'],
     name: 'examples',
   },
   {
@@ -74,4 +67,4 @@ export const eFolders = [
     folderNames: ['expo', 'expo-shared'],
     name: 'expo',
   },
-];
+]
